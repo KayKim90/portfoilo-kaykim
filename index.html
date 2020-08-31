@@ -1,197 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio - Kay Kim</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Portfolio - Kay Kim</title>
+    <link rel="stylesheet" type="text/css" href="asset/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Mansalva&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css" />
 
-  <link rel="stylesheet" type="text/css" href="asset/css/style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css">
+    <script
+      defer
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-3.2.0.min.js"
+    ></script>
+    <script
+      defer
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    ></script>
+    <script
+      defer
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"
+    ></script>
+    <script defer src="asset/main.js"></script>
+  </head>
 
-
-
-  <script defer type="text/javascript" src="http://code.jquery.com/jquery-3.2.0.min.js"></script>
-  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <script defer src="asset/main.js"></script>
-</head>
-
-<body id="page-top">
-
-  <!--Side navigation bar-->
-  <div id="main">
-    <a class="openbtn" style="position: fixed;">
-      <i class="material-icons icon wide">
-        menu
-      </i>
-    </a>
-  </div>
-  <div id="mySidebar" class="sidebar">
-    <!-- <a href="javascript:void(0)" class="closebtn">×</a> -->
-    <a href="#page-top">Home</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#author">Profile</a>
-    <a href="#contact">Contact</a>
-  </div>
-
-  <!--Header-->
-  <header class="mainhead d-flex">
-    <div class="container text-center">
-      <h1>Kay Kyungah Kim Portfolio</h1>
-      <h3>
-        <em>Front-end&nbsp;&amp;&nbsp;Fullstack Developer</em>
-      </h3>
+  <body id="page-top">
+    <!--Side navigation bar-->
+    <div id="main">
+      <a class="openbtn" style="position: fixed">
+        <i class="material-icons icon wide"> menu </i>
+      </a>
     </div>
-  </header>
+    <div id="mySidebar" class="sidebar">
+      <!-- <a href="javascript:void(0)" class="closebtn">×</a> -->
+      <a href="#page-top">Home</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#author">Profile</a>
+      <a href="#contact">Contact</a>
+    </div>
 
-  <!--Portfolio-->
-  <section class="content-section" id="portfolio">
-    <div class="container">
-      <div class="content-section-heading text-center">
+    <!--Header-->
+    <header class="mainhead d-flex">
+      <div class="container text-center font-white">
+        <h1>Kay Kyungah Kim Portfolio</h1>
         <h3>
-          Portfolio
+          <em>Front-end&nbsp;&amp;&nbsp;Fullstack Developer</em>
         </h3>
-        <h2>
-          Recent Projects
-        </h2>
       </div>
-      <div class="row">
-        <div class="col-lg-6 mt-5">
-          <a class="portfolio-item" href="https://kaykim90.github.io/portfolio2019/">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Music Storage</h2>
-                <p>Individual Proejct</p>
-                <p>Vue.js, Node.js, SQLite<br>
-                  Online music-sharing web application<br>
-                  Register, Login, CRUD, Search, Bookmarks</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="asset/imgs/port01.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6 mt-5">
-          <a class="portfolio-item" href="https://kaykim90.github.io/OsakaSushi/">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Osaka Sushi</h2>
-                <p>Individual Proejct</p>
-                <p>HTML, CSS, JQuery<br>
-                  Commercial Restraunt web application<br>
-                  Static HTML form using google sheet</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="asset/imgs/port02.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6 mt-5">
-          <a class="portfolio-item" href="https://github.com/KayKim90/Vue-CRUD">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Inventory System</h2>
-                <p>Team Proejct</p>
-                <p>Vue.js, Node.js, MySQL<br>
-                  Inventory management web application<br>
-                  Data Create, Read, Update, Delete</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="asset/imgs/port03.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6 mt-5">
-          <a class="portfolio-item" href="https://github.com/KayKim90/ASPNET-WebBulletin">
-            <span class="caption">
-              <span class="caption-content">
-                <h2>Web Bulletin</h2>
-                <p>Individual Proejct</p>
-                <p>ASP.NET, Trumbowyg<br>
-                  Online bulletin board web application<br>
-                  Register, Login, Data CRUD</p>
-              </span>
-            </span>
-            <img class="img-fluid" src="asset/imgs/port04.jpg" alt="">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+    </header>
 
-  <!--Profile me-->
-  <section class="content-section bg-primary" id="author">
-    <div class="container text-center">
-      <div class="content-section-heading text-center">
-        <h3>
-          Profile
-        </h3>
-        <h2>
-          Kyung-ah(Kay) Kim
-        </h2>
+    <!--Portfolio-->
+    <section class="content-section" id="portfolio">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h3>Portfolio</h3>
+          <h2>Recent Projects</h2>
+          <h5>Please click to see details of each project</h5>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 mt-5">
+            <a
+              class="portfolio-item"
+              href="https://kaykim90.github.io/portfolio-stadium/"
+            >
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Stadium</h2>
+                  <p>Individual Proejct</p>
+                  <p>
+                    Node.js, MongoDB, Pug<br />
+                    Online study web application<br />
+                    Register, Login, RESTful API, User roles
+                  </p>
+                </span>
+              </span>
+              <img class="img-fluid" src="asset/imgs/port06.jpg" alt="" />
+            </a>
+          </div>
+          <div class="col-lg-6 mt-5">
+            <a
+              class="portfolio-item"
+              href="https://kaykim90.github.io/portfolio-netflix/"
+            >
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Netflix Clone</h2>
+                  <p>Individual Proejct</p>
+                  <p>
+                    React.js, Node.js, Firebase<br />
+                    Netflix clone web application<br />
+                    Fetch movie data from TMDB API
+                  </p>
+                </span>
+              </span>
+              <img class="img-fluid" src="asset/imgs/port05.jpg" alt="" />
+            </a>
+          </div>
+          <div class="col-lg-6 mt-5">
+            <a
+              class="portfolio-item"
+              href="https://kaykim90.github.io/portfolio2019/"
+            >
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Music Storage</h2>
+                  <p>Individual Proejct</p>
+                  <p>
+                    Vue.js, Node.js, SQLite<br />
+                    Online music-sharing web application<br />
+                    Register, Login, CRUD, Search, Bookmarks
+                  </p>
+                </span>
+              </span>
+              <img class="img-fluid" src="asset/imgs/port01.jpg" alt="" />
+            </a>
+          </div>
+          <div class="col-lg-6 mt-5">
+            <a
+              class="portfolio-item"
+              href="https://kaykim90.github.io/OsakaSushi/"
+            >
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Osaka Sushi</h2>
+                  <p>Individual Proejct</p>
+                  <p>
+                    HTML, CSS, JQuery<br />
+                    Commercial Restraunt web application<br />
+                    Static HTML form using google sheet
+                  </p>
+                </span>
+              </span>
+              <img class="img-fluid" src="asset/imgs/port02.jpg" alt="" />
+            </a>
+          </div>
+          <div class="col-lg-6 mt-5">
+            <a
+              class="portfolio-item"
+              href="https://github.com/KayKim90/Vue-CRUD"
+            >
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Inventory System</h2>
+                  <p>Team Proejct</p>
+                  <p>
+                    Vue.js, Node.js, MySQL<br />
+                    Inventory management web application<br />
+                    Data Create, Read, Update, Delete
+                  </p>
+                </span>
+              </span>
+              <img class="img-fluid" src="asset/imgs/port03.jpg" alt="" />
+            </a>
+          </div>
+          <div class="col-lg-6 mt-5">
+            <a
+              class="portfolio-item"
+              href="https://github.com/KayKim90/ASPNET-WebBulletin"
+            >
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Web Bulletin</h2>
+                  <p>Individual Proejct</p>
+                  <p>
+                    ASP.NET, Trumbowyg<br />
+                    Online bulletin board web application<br />
+                    Register, Login, Data CRUD
+                  </p>
+                </span>
+              </span>
+              <img class="img-fluid" src="asset/imgs/port04.jpg" alt="" />
+            </a>
+          </div>
+        </div>
       </div>
-      <img src="asset/imgs/profile02.jpg" class="img-circle profile-img" alt="Kay Kim">
-      <p class="profile-contact"><i class="fas fa-phone"></i> +1 647 995 3696</p>
-      <p class="profile-contact"><i class="fas fa-envelope"></i> kim900318@gmail.com</p>
-      <p class="profile-contact"><i class="fas fa-map-marker-alt"></i> 2837 Yonge St, Toronto</p>
-      <div class="row">
-        <div class="col-md-4 col-sm-12 profile">
-          <h4><strong>Skills</strong></h4>
-          <p>
-            <span class="tag">Vue.js</span>&nbsp;<span class="tag">Node.js</span>
-            <span class="tag">MongoDB</span>&nbsp;<span class="tag">MySQL</span>
-            <span class="tag">HTML</span>&nbsp;<span class="tag">SASS</span>
-            <span class="tag">SCSS</span>&nbsp;<span class="tag">CSS</span>
-            <span class="tag">javascript</span>&nbsp;<span class="tag">Jquery</span>
-            <span class="tag">C#</span>&nbsp;<span class="tag">ASP.NET</span>
-            <span class="tag">Java</span>&nbsp;<span class="tag">SQL</span>
-            <span class="tag">XML</span>&nbsp;<span class="tag">Shell script</span>
-            <span class="tag">EXCEL</span>&nbsp;<span class="tag">MS Office</span>
-          </p>
-        </div>
-        <div class="col-md-4 col-sm-12 profile">
-          <h4><strong>Education</strong></h4>
-          <h5><strong>Centennial College (2017 - 2019)</strong></h5>
-          <p>Software Engineering Tehchnician</p>
-          <hr>
-          <h5><strong>Kyungpook National University (2009 - 2014)</strong></h5>
-          <p>Public Administration and Economics</p>
-        </div>
-        <div class="col-md-4 col-sm-12 profile">
-          <h4><strong>Work</strong></h4>
-          <p><strong>Kibo sushi(2018 oct - ing)</strong> - Waitress</p>
-          <hr>
-          <p><strong>Pohang university of science and technology (2014-2015, S.Korea)</strong></p>
-          <p>Project Management. Budget. Coordinating</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-<!--foooter-->
-  <footer class="footer text-center" id="contact">
-    <div class="container">
-      <ul class="list-inline mt-5">
-        <li class="list-inline-item">
-          <a class="contact-link" href="https://github.com/KayKim90"><i class="fab fa-github"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a href="#">
-            <a class="contact-link" href="https://www.linkedin.com/in/kaykim09/"><i class="fab fa-linkedin-in"></i></a>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a href="#">
-            <a class="contact-link" href="mailto:kim900318@gmail.com"><i class="fas fa-envelope"></i></a>
-          </a>
-        </li>
-      </ul>
-      <small>Copyright &copy; Kay Kyungah Kim Portfolio 2019</p></small>
-    </div>
-    <a class="scroll-top" href="#page-top" data-toggle="tooltip" data-placement="bottom" title="Scroll to top"><i class="fas fa-angle-up"></i></a>
-  </footer>
-</body>
+    <!--Profile me-->
+    <section class="content-section bg-primary" id="author">
+      <div class="container text-center">
+        <div class="content-section-heading text-center">
+          <h3>Profile</h3>
+          <h2>Kyung-ah(Kay) Kim</h2>
+        </div>
+        <img
+          src="asset/imgs/profile-2.jpg"
+          class="img-circle profile-img"
+          alt="Kay Kim"
+        />
+        <!-- <p class="profile-contact">
+          <i class="fas fa-phone"></i> +1 647  
+        </p> -->
+        <p class="profile-contact">
+          <i class="fas fa-envelope"></i> kim900318@gmail.com
+        </p>
+        <p class="profile-contact">
+          <i class="fas fa-map-marker-alt"></i> 2837 Yonge St, Toronto
+        </p>
+        <div class="row">
+          <div class="col-md-4 col-sm-12 profile">
+            <h4><strong>Skills</strong></h4>
+            <p>
+              <span class="tag">Vue.js</span>&nbsp;<span class="tag"
+                >Node.js</span
+              >
+              <span class="tag">React.js</span>&nbsp;<span class="tag"
+                >Pug</span
+              >
+              <span class="tag">MongoDB</span>&nbsp;<span class="tag"
+                >JavaScript</span
+              >
+              <span class="tag">HTML</span>&nbsp;<span class="tag">SASS</span>
+              <span class="tag">SCSS</span>&nbsp;<span class="tag">CSS</span>
+              <span class="tag">MySQL</span>&nbsp;<span class="tag"
+                >Jquery</span
+              >
+              <span class="tag">C#</span>&nbsp;<span class="tag">ASP.NET</span>
+              <span class="tag">Java</span>&nbsp;<span class="tag">SQL</span>
+              <span class="tag">XML</span>&nbsp;<span class="tag"
+                >Shell script</span
+              >
+              <span class="tag">EXCEL</span>&nbsp;<span class="tag"
+                >MS Office</span
+              >
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-12 profile">
+            <h4><strong>Education</strong></h4>
+            <h5><strong>Centennial College (2017 - 2019)</strong></h5>
+            <p>Software Engineering Tehchnician</p>
+            <hr />
+            <h5>
+              <strong>Kyungpook National University (2009 - 2014)</strong>
+            </h5>
+            <p>Public Administration and Economics</p>
+          </div>
+          <div class="col-md-4 col-sm-12 profile">
+            <h4><strong>Work</strong></h4>
+            <p>
+              <strong
+                >Pohang university of science and technology (2014-2015,
+                S.Korea)</strong
+              >
+            </p>
+            <p>Project Management. Budget. Coordinating</p>
+            <hr />
+            <p><strong>Kibo sushi(2018 oct - 2020 mar)</strong> - Waitress</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--foooter-->
+    <footer class="footer text-center" id="contact">
+      <div class="container">
+        <ul class="list-inline mt-5">
+          <li class="list-inline-item">
+            <a class="contact-link" href="https://github.com/KayKim90"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">
+              <a
+                class="contact-link"
+                href="https://www.linkedin.com/in/kaykim09/"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">
+              <a class="contact-link" href="mailto:kim900318@gmail.com"
+                ><i class="fas fa-envelope"></i
+              ></a>
+            </a>
+          </li>
+        </ul>
+        <small>Copyright &copy; Kay Kyungah Kim Portfolio 2020</small>
+      </div>
+      <a
+        class="scroll-top"
+        href="#page-top"
+        data-toggle="tooltip"
+        data-placement="bottom"
+        title="Scroll to top"
+        ><i class="fas fa-angle-up"></i
+      ></a>
+    </footer>
+  </body>
 </html>
